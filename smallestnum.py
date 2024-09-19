@@ -16,3 +16,10 @@ Sample Input:
 5
 Sample Output:
 1
+Solution :
+numbers = [5, 2, 9, 1, 5, 6]
+smallest_number = min(numbers)
+print("The smallest number in the list is:", smallest_number)
+...
+O/P : 
+The smallest number in the list is: 1
