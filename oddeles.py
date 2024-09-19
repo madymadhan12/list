@@ -22,3 +22,18 @@ Sample Input:
 Sample Output:
 The even list [2, 6]
 The odd list [1, 3, 5]
+...
+Solution : numbers = [5, 2, 9, 1, 5, 6, 8, 3, 10, 4]
+even_numbers = []
+odd_numbers = []
+for number in numbers:
+    if number % 2 == 0:
+        even_numbers.append(number)  
+    else:
+        odd_numbers.append(number)    
+print("Even numbers:", even_numbers)
+print("Odd numbers:", odd_numbers)
+...
+O/p : Even numbers: [2, 6, 8, 10, 4]
+Odd numbers: [5, 9, 1, 5, 3]
+
