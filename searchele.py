@@ -20,3 +20,13 @@ Sample Input 2:
 Sample Output 2:
 4 is not present in the given list
 ...
+Solution :
+numbers = [5, 2, 9, 1, 5, 6]
+search_element = 5
+if search_element in numbers:
+    print(f"{search_element} is present in the list.")
+else:
+    print(f"{search_element} is not present in the list.")
+O/P :5 is present in the list. 
+              
+              
